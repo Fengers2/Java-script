@@ -1,0 +1,17 @@
+<html>
+<head>
+<script type="text/javascript">
+//<!--
+var myVar = "global"; // Declare a global variable
+function checkscope( ) {
+ var myVar = "local"; // Declare a local variable
+ document.write(myVar);
+}
+//-->
+</script>
+</head>
+<body>
+ global y local
+ <input type="button" onclick="alert(myVar)" value="show myVar">
+</body>
+</html> 
